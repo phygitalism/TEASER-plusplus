@@ -52,7 +52,7 @@ if (BUILD_TEASER_FPFH)
     find_package(Boost 1.58 QUIET REQUIRED)
 
     # PCL
-    find_package(PCL 1.8 QUIET REQUIRED COMPONENTS common io features kdtree)
+    find_package(PCL 1.11 QUIET REQUIRED COMPONENTS common io features kdtree)
 endif ()
 
 # googletest
